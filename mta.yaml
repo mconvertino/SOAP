@@ -71,6 +71,11 @@ resources:
             ProxyType: Internet
             Type: HTTP
             URL: https://ui5.sap.com
+          - Authentication: NoAuthentication
+            Name: SOAP
+            ProxyType: Internet
+            Type: HTTP
+            URL: https://www.crcind.com/
           existing_destinations_policy: update
       version: 1.0.0
     service: destination

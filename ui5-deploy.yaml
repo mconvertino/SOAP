@@ -22,4 +22,4 @@ builder:
     configuration:
       archiveName: soapsoap
       additionalFiles:
-      - xs-app.json
+      - webapp/xs-app.json
