@@ -1,10 +1,14 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="soap.soap.controller.View" displayBlock="true">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" controllerName="soap.soap.controller.View" displayBlock="true">
 	<Shell id="shell">
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
-					    
+                    <l:VerticalLayout class="sapUiContentPadding" width="100%">
+					   <Input id="num1" placeholder="Insert the first number" width="300px"/>
+					   <Input id="num2" placeholder="Insert the second number" width="300px" />
+					   <Button text="Submit" id="submit" press="onSubmit" type="Default"/> 
+                    </l:VerticalLayout>
 					</content>
 				</Page>
 			</pages>

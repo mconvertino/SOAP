@@ -15,6 +15,13 @@
       "destination": "ui5"
     },
     {
+      "source": "^/soap/(.*)$",
+      "target": "soap/$1",
+      "authenticationType": "none",
+      "destination": "SOAP",
+      "csrfProtection": false
+    },
+    {
       "source": "^(.*)$",
       "target": "$1",
       "service": "html5-apps-repo-rt",
